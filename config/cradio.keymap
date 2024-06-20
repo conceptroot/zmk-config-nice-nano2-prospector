@@ -56,12 +56,12 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T               &kp Y      &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │        │  H       │  J       │  K       │  L       │ ; :      │
-            HRML(A,        S,         D,         F)     &kp G               &kp H      HRMR(J,        K,         L,        SEMI)
+            &kp A,     &kp S,     &kp D,     &kp F      &kp G               &kp H      &kp J,      &kp K,     &kp L,    &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │        │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B               &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                 &lt LEFT1 ESC    &mt LS(LC(LALT)) SPACE  &lt RIGHT2 BSPC   &lt RIGHT1 ENTER
+                                 &mo LEFT1   &mt LS(LC(LALT)) SPACE  &lt RIGHT2 BSPC   &mo RIGHT1 
         //                                 ╰──────────┴──────────╯        ╰──────────┴──────────╯
             >;
         };
@@ -72,11 +72,11 @@
         //│ !        │  @       │  #       │  $       │ %        │   │  ^       │  &       │  *       │  {       │  }       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LBRC   &kp RBRC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CapsLock │  ~       │  -       │  =       │          │   │          │  (       │  )       │  [       │  ]       │
-            &kp CAPS   &kp TILDE  &kp MINUS  &kp EQUAL  &trans         &trans     &kp LPAR   &kp RPAR   &kp LBKT   &kp RBKT
+        //│ XXXXXX   │  ~       │  -       │  +       │ (        │   │   )      │  Command │  Option  │  Control │  Shift   │
+            &none      &kp TILDE  &kp MINUS  &kp PLUS  &kp LPAR        &kp RPAR   &kp LPAR   &kp RPAR   &kp LBKT   &kp RBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ `        │ |        │ _        │ +        │          │   │          │  '       │  "       │  \       │          │
-            &kp GRAVE  &kp PIPE   &kp UNDER  &kp PLUS   &trans         &kp  DEL   &kp SQT    &kp DQT    &kp BSLH   &trans
+        //│ `        │ |        │ _        │  =       │  [       │   │    ]     │  '       │  "       │  XXXXXX  │    \     │
+            &kp GRAVE  &kp PIPE   &kp UNDER  &kp EQUAL  &kp LBKT       &kp RBKT   &kp SQT    &kp DQT    &none       &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp TAB         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
