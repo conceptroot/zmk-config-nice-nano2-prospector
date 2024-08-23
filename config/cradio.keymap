@@ -18,9 +18,10 @@
     tapping-term-ms = <250>;
 };
 
-//&mt {
-//    tapping-term-ms = <250>;
-//};
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+};
 
 / {
     combos {
@@ -39,14 +40,6 @@
             tapping-term-ms = <190>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
-        };
-        
-        mt: mod_tap {
-            compatible = "zmk,behavior-mod-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <400>;
-            quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
     };
