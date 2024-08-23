@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LCTRL k2  &ht LALT k3  &ht LGUI k4
-#define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RALT k2  &ht RCTRL k3  &ht RSHFT k4
+// #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LCTRL k2  &ht LALT k3  &ht LGUI k4
+// #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RALT k2  &ht RCTRL k3  &ht RSHFT k4
 #define DEFAULT 0
 #define RIGHT1   1
 #define LEFT1    2
@@ -18,9 +18,9 @@
     tapping-term-ms = <250>;
 };
 
-&mt {
-    tapping-term-ms = <250>;
-};
+//&mt {
+//    tapping-term-ms = <250>;
+//};
 
 / {
     combos {
@@ -39,6 +39,14 @@
             tapping-term-ms = <190>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+        
+        mt: mod_tap {
+            compatible = "zmk,behavior-mod-tap";
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
     };
