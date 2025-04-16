@@ -153,13 +153,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &trans      &trans     &trans     &trans    &trans          &trans     &trans     &trans     &trans    &trans
+           &none      &none      &none      &none      &none          &none      &none      &none      &none       &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &kp Z       &trans     &trans     &trans    &trans          &trans     &trans     &trans     &trans    &trans
+           &kp F12  &kp (LALT F12) &none      &none      &none          &none      &none      &none      &none       &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-           &trans      &trans     &trans     &trans    &trans          &trans     &trans     &trans     &trans    &trans
+           &none    &kp (LALT F4)  &none      &none      &none          &none      &none      &none      &none       &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
