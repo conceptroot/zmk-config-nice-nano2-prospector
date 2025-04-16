@@ -153,7 +153,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-        &kp LC(TAB) &kp LC(F4) &kp LC(KP_MINUS) &kp INS &LC(PAUSE_BREAK)  &none      &none      &none      &none       &none
+        &kp LC(TAB) &kp LC(F4) &kp LC(KP_MINUS) &kp INS &kp LC(PAUSE_BREAK)  &none      &none      &none      &none       &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
           &kp LA(F12) &kp F12       &none      &none      &none          &none      &none      &none      &none       &none
