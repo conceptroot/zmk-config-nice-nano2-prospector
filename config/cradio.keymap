@@ -57,10 +57,10 @@
             if-layers = <RIGHT1 LEFT1>;
             then-layer = <TRI>;
         };
-        odin_c_layer {
-            if-layers = <RIGHT1 RIGHT2>;
-            then-layer = <ODIN_C>;
-        };
+        // odin_c_layer {
+        //     if-layers = <RIGHT1 RIGHT2>;
+        //     then-layer = <ODIN_C>;
+        // };
     };
 
     keymap {
