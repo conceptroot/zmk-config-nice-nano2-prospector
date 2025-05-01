@@ -26,6 +26,10 @@
     // quick-tap-ms = <150>;
 };
 
+&sl {
+    release-after-ms = <2000>;
+};
+
 / {
     combos {
         #include "combos.dtsi"
