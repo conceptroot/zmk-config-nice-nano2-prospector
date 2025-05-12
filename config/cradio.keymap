@@ -38,10 +38,17 @@
             #binding-cells = <0>;
 
             bindings
-                = <&macro_press &kp LS(LC(LA(BSLH)))>
-                , <&macro_release &kp LS(LC(LA(BSLH)))>
-                , <&macro_tap &kp LA(LS(KC_NO))>
+                = <&macro_press &kp LCTRL &kp LALT>
+                , <&macro_tap &kp BSLH>
+                , <&macro_release &kp LCTRL &kp LALT>
+
+                , <&macro_press &kp LALT &kp LSHIFT>
+                , <&macro_release &kp LALT &kp LSHIFT>
                 ;
+                // = <&macro_press &kp LS(LC(LA(BSLH)))>
+                // , <&macro_release &kp LS(LC(LA(BSLH)))>
+                // , <&macro_tap &kp LA(LS(KC_NO))>
+                // ;
         };
     };
 
