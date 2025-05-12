@@ -49,6 +49,18 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
+        combo_macro: combo_macro {
+            compatible = "zmk,behavior-macro";
+            label = "Combo Macro";
+
+            #binding-cells = <0>;
+
+            bindings = <
+                &macro_press &kp LS(LC(LA(BSLH))) // Ctrl+Shift+Option+Backslash
+                &macro_release &kp LS(LC(LA(BSLH))) 
+                &macro_tap &kp LA(LS(NONE))  // Alt+Shift (no letter needed, just modifier press)
+            >;
+        };
     };
 
     conditional_layers {
