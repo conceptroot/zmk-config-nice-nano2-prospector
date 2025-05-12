@@ -17,7 +17,7 @@ combo_cmd_v { timeout-ms = <50>; key-positions = <20 22 23>; bindings = <&kp LG(
 
 // Change language
 // combo_lang_en { timeout-ms = <50>; key-positions = <22 23>; bindings = <&kp LS(LC(LA(BSLH)))>; };
-combo_lang_en { timeout-ms = <50>; key-positions = <22 23>; bindings = <&combo_macro>; };
+combo_lang_en { timeout-ms = <50>; key-positions = <22 23>; bindings = <&language_macro>; };
 combo_lang_ru { timeout-ms = <50>; key-positions = <26 27>; bindings = <&kp LS(LC(LA(MINUS)))>; };
 
 // Mac Os navigation
