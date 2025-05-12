@@ -31,22 +31,22 @@
 };
 
 / {
-    combos {
-        #include "combos.dtsi"
-    };
     macros {
         combo_macro: combo_macro {
             compatible = "zmk,behavior-macro";
             // label = "Combo Macro";
-
             #binding-cells = <0>;
 
             bindings = <
-                &macro_press &kp LS(LC(LA(BSLH)))
-                &macro_release &kp LS(LC(LA(BSLH)))
-                &macro_tap &kp LA(LS(KC_NO))
-            >;
+                = <&macro_press &kp LS(LC(LA(BSLH)))>
+                , <&macro_release &kp LS(LC(LA(BSLH)))>
+                , <&macro_tap &kp LA(LS(KC_NO))>
+                ;
         };
+    };
+
+    combos {
+        #include "combos.dtsi"
     };
 
     behaviors {
