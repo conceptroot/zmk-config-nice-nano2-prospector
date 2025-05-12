@@ -37,7 +37,7 @@
             // label = "Combo Macro";
             #binding-cells = <0>;
 
-            bindings = <
+            bindings
                 = <&macro_press &kp LS(LC(LA(BSLH)))>
                 , <&macro_release &kp LS(LC(LA(BSLH)))>
                 , <&macro_tap &kp LA(LS(KC_NO))>
