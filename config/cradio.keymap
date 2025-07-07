@@ -37,10 +37,10 @@
             #binding-cells = <0>;
 
             bindings
-                = <&macro_press &kp LALT &kp LSHIFT>
-                , <&macro_release &kp LALT &kp LSHIFT>
+                // = <&macro_press &kp LALT &kp LSHIFT>
+                // , <&macro_release &kp LALT &kp LSHIFT>
 
-                , <&macro_press &kp LSHIFT &kp LALT &kp LCTRL>
+                = <&macro_press &kp LSHIFT &kp LALT &kp LCTRL>
                 , <&macro_tap &kp BSLH>
                 , <&macro_release &kp LSHIFT &kp LALT &kp LCTRL>
 
