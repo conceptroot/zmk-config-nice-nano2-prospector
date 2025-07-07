@@ -18,10 +18,12 @@
 #
 ---
 include:
-  # - board: seeeduino_xiao_ble
-    # shield: cradio_dongle prospector_adapter
-  - board: seeeduino_xiao_ble
-    shield: cradio_dongle prospector_adapter
+  #- board: seeeduino_xiao_ble                  # <--- prospector
+  #  shield: cradio_dongle prospector_adapter   # <--- prospector
+
+  - board: seeeduino_xiao_ble                  # <--- prospector fork
+    shield: cradio_dongle dongle_screen        # <--- prospector fork
+    artifact-name: dongle-screen               # <--- prospector fork 
 
   - board: nice_nano_v2
     shield: cradio_left
