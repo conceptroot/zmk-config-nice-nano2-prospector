@@ -33,17 +33,14 @@
 / {
     macros {
         language_macro: language_macro {
+
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-
+            wait-ms = <10>;
+            tap-ms = <5>;
             bindings
-                // = <&macro_press &kp LALT &kp LSHIFT>
-                // , <&macro_release &kp LALT &kp LSHIFT>
-
-                = <&macro_press &kp LSHIFT &kp LALT &kp LCTRL>
-                , <&macro_tap &kp BSLH>
-                , <&macro_release &kp LSHIFT &kp LALT &kp LCTRL>
-
+                = <&kp LS(LC(LA(BSLH)))>
+                , <&kp LA(LSHIFT)>
                 ;
         };
     };
