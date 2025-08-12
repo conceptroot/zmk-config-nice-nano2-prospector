@@ -180,7 +180,7 @@
         &kp LC(TAB) &kp LC(F4)   &kp LC(LS(KP_MINUS)) &kp LC(LS(KP_PLUS)) &kp INS         &none  &none      &none      &none       &none
         //├──────────┼──────────┼─────────          ─┼──────────          ┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │                    │                    │          │   │          │          │          │          │          │
-          &kp LA(F12) &kp F12     &none              &kp LC(F1)           &kp LC(LS(F))   &none       &none      &none      &none       &none
+          &kp LA(F12) &kp F12     &kp LC(MINUS)       &kp LC(F1)           &kp LC(LS(F))   &none       &none      &none      &none       &none
         //├──────────┼──────────┼─────────          ─┼──────────          ┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │                    │                    │          │   │          │          │          │          │          │
            &none      &none       &kp PAUSE_BREAK    &kp LS(F9)           &kp LC(LA(E))  &none  &none      &none      &none       &none
