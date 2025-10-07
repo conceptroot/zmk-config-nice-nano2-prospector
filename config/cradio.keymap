@@ -127,8 +127,8 @@
         //│ Shift    │  Control │  Option  │  Command │ XXXXXX   │   │  XXXXXX  │  4       │  5       │  6       │  0       │
            &sk LSHFT  &sk LCTRL   &sk LALT   &sk LGUI  &none           &none     &kp N4     &kp N5     &kp N6     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  XXXXXX  │  Delete  │Backspace │ ENTER    │ TAB      │   │  XXXXXX  |  1       │  2       │  3       │ XXXXXX   │
-            &none       &kp DEL  &kp BSPC   &kp ENTER  &kp TAB          &none     &kp N1     &kp N2     &kp N3      &none
+        //│  XXXXXX  │Backspace │ Delete   │ ENTER    │ TAB      │   │  XXXXXX  |  1       │  2       │  3       │ XXXXXX   │
+            &none      &kp BSPC  &kp DEL   &kp ENTER  &kp TAB          &none     &kp N1     &kp N2     &kp N3      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
