@@ -20,9 +20,9 @@ combo_lang_en { timeout-ms = <50>; key-positions = <22 23>; bindings = <&languag
 combo_lang_ru { timeout-ms = <50>; key-positions = <26 27>; bindings = <&language_macro_ru>; };
 
 // Mac Os navigation
-combo_ctrl_up { timeout-ms = <50>; key-positions = <1 2 3>; bindings = <&kp LC(UP)>; };
-combo_ctrl_left { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LC(LEFT)>; };
-combo_ctrl_right { timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp LC(RIGHT)>; };
+combo_ctrl_up { timeout-ms = <50>; key-positions = <1 2 3>; bindings = <&kp LC(LS(LA(UP)))>; };
+combo_ctrl_left { timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp LC(LS(LA(LEFT)))>; };
+combo_ctrl_right { timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp LC(LS(LA(RIGHT)))>; };
 
 // Esc and Enter
 combo_esc { timeout-ms = <50>; key-positions = <21 22>; bindings = <&kp ESC>; };
